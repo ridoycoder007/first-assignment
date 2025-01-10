@@ -191,6 +191,16 @@ border: 1px solid gray;
     align-items: center;
     
 }
+.news{
+    margin-top: 40px;
+    height: 300px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
