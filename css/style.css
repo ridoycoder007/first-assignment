@@ -193,15 +193,152 @@ border: 1px solid gray;
 }
 .news{
     margin-top: 40px;
-    height: 300px;
+    height: 400px;
     width: 100%;
     padding: 0 20px;
     display: flex;
-    gap: 30px;
-    justify-content: space-between;
+    gap: 70px;
+    /* justify-content: space-around; */
     align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.news .news1{
+    
+    height: 350px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.news .news1 img{
+    border-radius: 40px;
+    background-position: cover;
+    height: 100%;
+    width: 100%;
+    padding: 20px 20px;
+}
+.news .news2{
+    
+    height: 350px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+.news .news2 .news-text{
+    font-size: 40px;
+}
+.news .news2 .news-text-1{
+    margin-top: 17px;
+}
+.news .news2 .news-text-2{
+    margin-top: 20px;
+}
+.news .news2 .news-btn{
+    margin-top: 20px;
+    padding: 13px 25px;
+    background-color: #006A50;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-size: 18px;
+
 }
 
-
-
+.news .news2 .news-btn:hover{
+    background:#038666;
+    transition: .3s;
+}
+.donate{
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    text-align: center;
+}
+.donate .taka{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.donate .donate-h{
+    font-size: 28px;
+}
+.donate .donate-p{
+    margin-top: 30px;
+    padding: 0 30px;
+}
+.donate .taka1{
+    height: 170px;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(56, 56, 56);
+}
+.donate .taka2{
+    height: 170px;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(56, 56, 56);
+    background-color: #006A50;
+    color: white;
+}
+.donate .taka3{
+    height: 170px;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(56, 56, 56);
+}
+.donate .taka4{
+    height: 170px;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(56, 56, 56);
+}
+.donate .taka1:hover{
+    background-color: #006a50;
+    color: white;
+    transition: .3s;
+}
+.donate .taka2:hover{
+    background-color: #006a50;
+    color: white;
+    transition: .3s;
+    box-shadow: 2px 2px 10px 10px gray;
+}
+.donate .taka3:hover{
+    background-color: #006a50;
+    color: white;
+    transition: .3s;
+}
+.donate .taka4:hover{
+    background-color: #006a50;
+    color: white;
+    transition: .3s;
+}
 
