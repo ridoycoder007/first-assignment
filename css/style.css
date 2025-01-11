@@ -119,9 +119,9 @@ main>section .box img{
     color: white;
     transition: .3s;
 }
-/* .one1-btn:hover{
-    box-shadow: .5px .5px .5px 5px #5490F5;
-} */
+#one1-btn:hover{
+    color: black;
+}
 
 .one1 .box1 button{
     margin-top: 20px;
@@ -307,9 +307,9 @@ border: 1px solid gray;
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    color: rgb(56, 56, 56);
-    background-color: #006A50;
-    color: white;
+    color: rgb(37, 37, 37);
+    background-color: #C6E4D6;
+    /* color: rgb(0, 0, 0); */
 }
 .donate .taka3{
     height: 150px;
@@ -402,9 +402,10 @@ input[type=email]{
     border: none;
     height: 50px;
     width: 700px;
-    text-align: center;
+    text-align: start;
     outline: none;
-    font-size: 20px;
+    font-size: 18px;
+    padding: 0 0 0 15px;
 }
 
 .subscribe .sub{
