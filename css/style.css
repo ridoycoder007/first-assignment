@@ -139,6 +139,7 @@ main>section .box img{
     /* background-color: #ffffff; */
     border-radius: 10px;
     background-image: url("../assets/quote-bg.png");
+    background-position: 10px 10px;
     background-repeat: no-repeat;
     border: 1px solid rgb(177, 177, 177);
     background-color: white;
@@ -273,7 +274,8 @@ border: 1px solid gray;
 }
 .donate .taka{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    /* margin: 0 auto; */
     align-items: center;
     border-radius: 30px;
     margin-top: 30px;
@@ -286,10 +288,10 @@ border: 1px solid gray;
     padding: 0 30px;
 }
 .donate .taka1{
-    height: 170px;
-    width: 400px;
+    height: 150px;
+    width: 350px;
     border: 1px solid gray;
-    border-radius: 40px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -297,8 +299,8 @@ border: 1px solid gray;
     color: rgb(56, 56, 56);
 }
 .donate .taka2{
-    height: 170px;
-    width: 400px;
+    height: 150px;
+    width: 350px;
     border: 1px solid gray;
     border-radius: 30px;
     display: flex;
@@ -310,10 +312,10 @@ border: 1px solid gray;
     color: white;
 }
 .donate .taka3{
-    height: 170px;
-    width: 400px;
+    height: 150px;
+    width: 350px;
     border: 1px solid gray;
-    border-radius: 30px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,10 +323,10 @@ border: 1px solid gray;
     color: rgb(56, 56, 56);
 }
 .donate .taka4{
-    height: 170px;
-    width: 400px;
+    height: 150px;
+    width: 350px;
     border: 1px solid gray;
-    border-radius: 30px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
